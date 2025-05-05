@@ -1,0 +1,5 @@
+1980 lerde Bosch un geliştirdiği bir sistemdir. Her işlem için butona basılması ve rölenin aktif olup kabloyla taşınıp o işlevi gerçekleştirmesi eskide kaldı ve pratik değil. 
+CAN Bus ta bulunan CAN High ve CAN Low hatları aracılığıyla mevcut sistemlerin herhangi bir durumda kendini ilgilendiren nodeların yani sistemlerin devreye girmesi diğerlerinin 
+o işi kullanmayacağı için reddetmesi temeline dayanır. Bu da araçlardan yaklaşık 50 kg ya kadar kablo atılmasını sağlamıştır. örneğin direksiyon hareketi hatta geldiğinde ESP sistemi
+hatta gelen bu direksiyon sensörü verisini alır değerlendirir ve kabul eder ancak airbag ünitesi de bu veriyi alır değerlendirir ancak reddeder ve airbag devreye girmez yani tüm 
+üniteler olan biten her hareketten haberdarlar ancak sadece kendisini ilgilendirenler o veriyi alır ve kullanır. CAN Bus mesajlarının 3 ana yapısı vardır. İd, veri uzunluğu ve datadır.
