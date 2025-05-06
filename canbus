@@ -3,3 +3,9 @@ CAN Bus ta bulunan CAN High ve CAN Low hatları aracılığıyla mevcut sistemle
 o işi kullanmayacağı için reddetmesi temeline dayanır. Bu da araçlardan yaklaşık 50 kg ya kadar kablo atılmasını sağlamıştır. örneğin direksiyon hareketi hatta geldiğinde ESP sistemi
 hatta gelen bu direksiyon sensörü verisini alır değerlendirir ve kabul eder ancak airbag ünitesi de bu veriyi alır değerlendirir ancak reddeder ve airbag devreye girmez yani tüm 
 üniteler olan biten her hareketten haberdarlar ancak sadece kendisini ilgilendirenler o veriyi alır ve kullanır. CAN Bus mesajlarının 3 ana yapısı vardır. İd, veri uzunluğu ve datadır.
+
+OBD(On Board Diagnostic)(araç üzerinden teşhis) protokolü CAN Bus protokolü üzerine inşa edilen bir protokoldür.
+16 pinlik bir soket sayesinde tüm araçlara bağlanmak mümkün hale geliyor.
+bu sokete bir cihaz bağlandığında örneğin UCH beynine bir istek yapılıyor
+örneğin aracın rpm değeri de UCH beyni de CAN Bus protokolüyle enjeksiyon ünitesine soruyor enjeksiyon ünitesi de cevap veriyor
+UCH beyni de veriyi alıp cihaza veriyor cihaz da rpm değerini bize gösteriyor.
